@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+*.spec
+
+# PyInstaller
+*.manifest
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data/model files (comment out if you want to include them)
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.csv
+*.tif
+*.tiff
+*.nc
+
+# Logs & outputs
+*.log
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+
+# Large data/model files
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.csv
+*.tif
+*.tiff
+*.nc
+*.tfrecord
+*.tfrecords
+*.zip
+*.tar
+*.gz
+*.7z
+*.pdf
+
+# Data directories
+archive/
+dataset/
+Ad-TFSATFire/dataset/
+NextDay/Physics_Wildfire/dataset/
